@@ -12,7 +12,6 @@ from app.handlers.common import register_handlers_common
 from app.handlers.database import register_handlers_db
 from app.handlers.feedback import register_handlers_feedback
 from app.handlers.mailing import mail_one, mail_two, mail_three
-from app.handlers.stickers import morning, evening
 
 logger = logging.getLogger(__name__)
 
